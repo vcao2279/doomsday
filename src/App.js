@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import List from './components/List';
+
 class App extends Component {
   constructor(){
     super();
@@ -22,9 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>
-          Hello
-        </h1>
+        <List list={this.state.list}/>
       </div>
     );
   }
