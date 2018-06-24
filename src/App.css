@@ -1,0 +1,5 @@
+.App {
+  background: url('./images/zombies.jpg');
+  background-size: cover;
+  height: 100vh;
+}
